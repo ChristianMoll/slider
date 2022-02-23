@@ -1,0 +1,48 @@
+<!-- https://3dtransforms.desandro.com/carousel -->
+<!-- inspiration: https://filippobello.com/ -->
+<div class="scene-container" (mousewheel)="handleScroll($event)">
+    <div class="scene">
+      <div class="carousel">
+        <div class="carousel__cell"><img src="/assets/img/portrait/aerospace.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/animal.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/candle.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/cat.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/gyeongbok-palace.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/macro.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/man.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/nature.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/new-york.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/planner.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/porsche.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/student.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/tucan.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/vietnam.jpg"></div>
+        <div class="carousel__cell"><img src="/assets/img/portrait/vw-beetle.jpg"></div>
+      </div>
+    </div>
+  
+  
+    <div class="carousel-options">
+        <p>
+            <label>
+                Cells
+                <input class="cells-range" type="range" min="3" max="15" value="15" />
+            </label>
+        </p>
+        <p>
+            <button class="previous-button">Previous</button>
+            <button class="next-button">Next</button>
+        </p>
+        <p>
+            Orientation:
+            <label>
+                <input type="radio" name="orientation" value="horizontal" checked />
+                horizontal
+            </label>
+            <label>
+                <input type="radio" name="orientation" value="vertical" />
+                vertical
+            </label>
+        </p>
+    </div>
+</div>  
